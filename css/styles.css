@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    
+}
+
+.background-img {
+    background-color: aliceblue;
+    overflow: hidden;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    background-color: red;
+    opacity: 0.5;
+    width: 40rem;
+    height: 5rem;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    height: 100%;
+}
+
+.header {
+    padding: 2rem;
+    background-color: rgb(247, 247, 247);
+}
+
+form {
+    padding: 2rem;
+    box-shadow: 10px 5px 10px lightgray;
+    position: relative;
+    z-index: 10;
+}
+
+.inputs {
+    display: grid;
+    grid-template-areas: 
+        "fName lName"
+        "email phone"
+        "pwd pwdCnfrm";
+    grid-row-gap: 1rem;
+    grid-column-gap: 3rem;
+    grid-template-columns: 0fr 0fr;
+    
+}
+
+.footer {
+    padding: 2rem;
+    background-color: rgb(247, 247, 247);
+}
