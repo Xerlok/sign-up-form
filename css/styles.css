@@ -3,6 +3,7 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    font-family: nordic;
 }
 
 @font-face {
@@ -48,10 +49,6 @@ body {
     width: 100%;
 }
 
-h1 {
-    font-family: nordic;
-}
-
 .main {
     height: 100%;
 }
@@ -83,4 +80,19 @@ form {
 .footer {
     padding: 2rem;
     background-color: rgb(247, 247, 247);
+}
+
+a {
+    color: green;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+button {
+    font-family: nordic;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 10rem;
+    border-style: double;
+    border-color: black;
 }
